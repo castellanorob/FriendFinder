@@ -16,3 +16,6 @@ var PORT = process.env.PORT || 3000;
 // Sets up the Express app to handle data parsing
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
+// Enables local CSS page (Note: CSS will have to be stored in the public folder)
+app.use(express.static(__dirname + '/public'));
