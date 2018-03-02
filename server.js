@@ -19,3 +19,14 @@ app.use(bodyParser.json());
 
 // Enables local CSS page (Note: CSS will have to be stored in the public folder)
 app.use(express.static(__dirname + '/public'));
+
+// Routing
+app.use(express.static("app"));
+//require("./app/routing/apiRoutes.js")(app);
+require("./app/routing/htmlRoutes")(app);
+
+// Listening on port function
+app.listen(PORT, function() {
+    console.log("listening on port", PORT);
+  });
+  
