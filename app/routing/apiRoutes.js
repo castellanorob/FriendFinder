@@ -1,7 +1,7 @@
 // Dependencies
 
 var path = require("path");
-var friendData = require(".app/data/friends.js");
+var friendData = require("../data/friends.js");
 
 
 module.exports = function(app) {
