@@ -22,7 +22,7 @@ app.use(express.static(__dirname + '/public'));
 
 // Routing
 app.use(express.static("app"));
-//require("./app/routing/apiRoutes.js")(app);
+require("./app/routing/apiRoutes.js")(app);
 require("./app/routing/htmlRoutes")(app);
 
 // Listening on port function
