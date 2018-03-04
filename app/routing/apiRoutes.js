@@ -1,7 +1,7 @@
 // Dependencies
 
 var path = require("path");
-var friendData = require("../data/friends.js");
+var friends = require("../data/friends.js");
 
 
 module.exports = function(app) {
@@ -11,6 +11,7 @@ module.exports = function(app) {
 
 app.post("/api/friends", function(req, res) {
     var userInput = req.body;
+    console.log(userInput);
     var userResponses = userInput.scores;
     var matchName = ""; 
     var matchImage = "";

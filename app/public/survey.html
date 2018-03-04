@@ -19,6 +19,12 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="">
 
+  <!-- CSS jQuery Chosen Plug-in -->
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/chosen/1.1.0/chosen.min.css">
+
+  <!-- JS jQuery Chosen Plug-in -->
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/chosen/1.1.0/chosen.jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -191,7 +197,9 @@
     </div>
         
     <script type="text/javascript">
+    $.ajaxSettings.traditional = true;
     // Chosen CSS
+
     var config = {
         ".chosen-select": {},
         ".chosen-select-deselect": {
