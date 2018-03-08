@@ -2,9 +2,9 @@
 
 var friends = [
     {
-      "name": "Carl Sagan",
-      "photo": "https://goo.gl/images/wqzweY",
-      "scores": [
+      name: "Carl Sagan",
+      photo: "https://goo.gl/images/wqzweY",
+      scores: [
         3,
         1,
         4,
@@ -19,9 +19,9 @@ var friends = [
      ] 
     },
     {
-      "name": "Stephen Hawking",
-      "photo": "https://goo.gl/images/WK9r8n",
-      "scores": [
+      name: "Stephen Hawking",
+      photo: "https://goo.gl/images/WK9r8n",
+      scores: [
         1,
         4,
         3,
@@ -35,9 +35,9 @@ var friends = [
       ]
     },
     {
-      "name": "Margaret Hamilton",
-      "photo": "https://goo.gl/images/S8qdp1",
-      "scores": [
+      name: "Margaret Hamilton",
+      photo: "https://goo.gl/images/S8qdp1",
+      scores: [
           5,
           2,
           5,
@@ -50,9 +50,9 @@ var friends = [
           5
         ]
     },
-    { "name": "Rosalind Franklin",
-      "photo": "https://goo.gl/images/sRdXJV",
-      "scores": [
+    { name: "Rosalind Franklin",
+      photo: "https://goo.gl/images/sRdXJV",
+      scores: [
         1,
         5,
         2,
@@ -65,9 +65,9 @@ var friends = [
         1
       ]
     },
-    { "name": "Nina Tandon",
-    "photo": "https://goo.gl/images/BsZSGW",
-    "scores": [
+    { name: "Nina Tandon",
+    photo: "https://goo.gl/images/BsZSGW",
+    scores: [
       3,
       2,
       4,
